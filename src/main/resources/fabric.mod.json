@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "pre-1194-hurtcam",
+	"version": "${version}",
+	"name": "Pre-1.19.4 HurtCam",
+	"description": "Reverts the damage tilt/hurtcam to pre-1.19.4 behavior. Use the vanilla Damage Tilt accessibility slider to adjust intensity.",
+	"authors": [
+		"xkzuto"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/pre-1194-hurtcam/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xkzuto.prehurtcam.Pre1194HurtCam"
+		]
+	},
+	"mixins": [
+		"pre-1194-hurtcam.mixins.json",
+		{
+			"config": "pre-1194-hurtcam.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

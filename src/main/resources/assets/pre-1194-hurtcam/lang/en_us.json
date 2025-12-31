@@ -1,0 +1,7 @@
+{
+  "key.pre-1194-hurtcam.toggle": "Toggle Pre-1.19.4 HurtCam",
+  "category.pre-1194-hurtcam": "Pre-1.19.4 HurtCam",
+  "text.config.pre-1194-hurtcam.title": "Pre-1.19.4 HurtCam Config",
+  "text.config.pre-1194-hurtcam.option.enable": "Enable Pre-1.19.4 HurtCam",
+  "text.config.pre-1194-hurtcam.option.enable.tooltip": "When enabled, reverts damage tilt to pre-1.19.4 behavior (disables directional damage tilt)"
+}
