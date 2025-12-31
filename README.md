@@ -26,9 +26,8 @@ In Minecraft 1.19.4 snapshot 23w06a, Mojang changed the damage tilt mechanics. T
 ## Installation
 
 1. Install [Fabric Loader](https://fabricmc.net/use/)
-2. Download [Fabric API](https://modrinth.com/mod/fabric-api)
-3. Download this mod from [Modrinth](https://modrinth.com/mod/pre-1194-hurtcam) or [GitHub Releases](https://github.com/xkzuto/pre-1194-hurtcam/releases)
-4. Place the mod `.jar` file in your `.minecraft/mods` folder
+2. Download this mod from [Modrinth](https://modrinth.com/mod/pre-1194-hurtcam) or [GitHub Releases](https://github.com/xkzuto96/Pre-1.19.4-HurtCam/releases)
+3. Place the mod `.jar` file in your `.minecraft/mods` folder
 
 ## Adjusting Intensity
 
@@ -42,7 +41,7 @@ Adjust the slider from 0% (no tilt) to 100% (full tilt).
 
 - **Minecraft Version:** 1.21.10
 - **Mod Loader:** Fabric
-- **Dependencies:** Fabric API
+- **Dependencies:** None! Just Fabric Loader
 - **Side:** Client-side only
 
 ## Building from Source
